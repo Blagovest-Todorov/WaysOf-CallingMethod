@@ -26,7 +26,9 @@ namespace Methods
             //PrintNumbers(5,  15); //calling the method with two values as the declaration  is, third way of calling
             //PrintNumbers(start: 10, end: 20);///new way using  ":" to assign start -end values for a mehtod 
             //-forth way of calling a method 
-            PrintNumbers(start: 50, end: 100);
+            //PrintNumbers(start: 50, end: 100); --the sequence of the parameters is kept;
+            PrintNumbers(end: 50, start: 18);//the sequence in parameters is not kept, 
+            //but this is not importat becasue we have passed teh values to the concrete named parameters, VS knows;
 
 
         }
